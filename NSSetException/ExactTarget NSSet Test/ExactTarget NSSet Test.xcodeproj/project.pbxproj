@@ -23,7 +23,7 @@
 		F669DBCA18C93AA7007F20EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F669DBA618C93AA7007F20EE /* UIKit.framework */; };
 		F669DBD218C93AA7007F20EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F669DBD018C93AA7007F20EE /* InfoPlist.strings */; };
 		F669DBD418C93AA7007F20EE /* ExactTarget_NSSet_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F669DBD318C93AA7007F20EE /* ExactTarget_NSSet_TestTests.m */; };
-		F669DBE618C93BD7007F20EE /* libetpushsdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F669DBE318C93BD7007F20EE /* libetpushsdk.a */; };
+		F669DBF118C94889007F20EE /* libetpushsdk-3.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F669DBEC18C94889007F20EE /* libetpushsdk-3.0.0.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,14 +60,16 @@
 		F669DBCF18C93AA7007F20EE /* ExactTarget NSSet TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExactTarget NSSet TestTests-Info.plist"; sourceTree = "<group>"; };
 		F669DBD118C93AA7007F20EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F669DBD318C93AA7007F20EE /* ExactTarget_NSSet_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExactTarget_NSSet_TestTests.m; sourceTree = "<group>"; };
-		F669DBDE18C93BD7007F20EE /* ETData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETData.h; sourceTree = "<group>"; };
-		F669DBDF18C93BD7007F20EE /* ETDataConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETDataConnector.h; sourceTree = "<group>"; };
-		F669DBE018C93BD7007F20EE /* ETLandingPagePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETLandingPagePresenter.h; sourceTree = "<group>"; };
-		F669DBE118C93BD7007F20EE /* ETPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETPush.h; sourceTree = "<group>"; };
-		F669DBE218C93BD7007F20EE /* ETURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETURLConnection.h; sourceTree = "<group>"; };
-		F669DBE318C93BD7007F20EE /* libetpushsdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libetpushsdk.a; sourceTree = "<group>"; };
-		F669DBE418C93BD7007F20EE /* PushConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushConstants.h; sourceTree = "<group>"; };
-		F669DBE518C93BD7007F20EE /* UIDevice+Identifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Identifier.h"; sourceTree = "<group>"; };
+		F669DBE718C94889007F20EE /* ETLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETLocationManager.h; sourceTree = "<group>"; };
+		F669DBE818C94889007F20EE /* ETPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETPush.h; sourceTree = "<group>"; };
+		F669DBE918C94889007F20EE /* FenceMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FenceMessage.h; sourceTree = "<group>"; };
+		F669DBEA18C94889007F20EE /* GenericUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericUpdate.h; sourceTree = "<group>"; };
+		F669DBEB18C94889007F20EE /* Geofence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geofence.h; sourceTree = "<group>"; };
+		F669DBEC18C94889007F20EE /* libetpushsdk-3.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libetpushsdk-3.0.0.a"; sourceTree = "<group>"; };
+		F669DBED18C94889007F20EE /* LocationUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationUpdate.h; sourceTree = "<group>"; };
+		F669DBEE18C94889007F20EE /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		F669DBEF18C94889007F20EE /* PushConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushConstants.h; sourceTree = "<group>"; };
+		F669DBF018C94889007F20EE /* Region.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Region.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +78,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F669DBA518C93AA7007F20EE /* CoreGraphics.framework in Frameworks */,
+				F669DBF118C94889007F20EE /* libetpushsdk-3.0.0.a in Frameworks */,
 				F669DBA718C93AA7007F20EE /* UIKit.framework in Frameworks */,
 				F669DBA318C93AA7007F20EE /* Foundation.framework in Frameworks */,
-				F669DBE618C93BD7007F20EE /* libetpushsdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,14 +178,16 @@
 		F669DBDD18C93BD7007F20EE /* etpushsdk */ = {
 			isa = PBXGroup;
 			children = (
-				F669DBDE18C93BD7007F20EE /* ETData.h */,
-				F669DBDF18C93BD7007F20EE /* ETDataConnector.h */,
-				F669DBE018C93BD7007F20EE /* ETLandingPagePresenter.h */,
-				F669DBE118C93BD7007F20EE /* ETPush.h */,
-				F669DBE218C93BD7007F20EE /* ETURLConnection.h */,
-				F669DBE318C93BD7007F20EE /* libetpushsdk.a */,
-				F669DBE418C93BD7007F20EE /* PushConstants.h */,
-				F669DBE518C93BD7007F20EE /* UIDevice+Identifier.h */,
+				F669DBE718C94889007F20EE /* ETLocationManager.h */,
+				F669DBE818C94889007F20EE /* ETPush.h */,
+				F669DBE918C94889007F20EE /* FenceMessage.h */,
+				F669DBEA18C94889007F20EE /* GenericUpdate.h */,
+				F669DBEB18C94889007F20EE /* Geofence.h */,
+				F669DBEC18C94889007F20EE /* libetpushsdk-3.0.0.a */,
+				F669DBED18C94889007F20EE /* LocationUpdate.h */,
+				F669DBEE18C94889007F20EE /* Message.h */,
+				F669DBEF18C94889007F20EE /* PushConstants.h */,
+				F669DBF018C94889007F20EE /* Region.h */,
 			);
 			name = etpushsdk;
 			path = ../../etpushsdk;
@@ -510,6 +514,7 @@
 				F669DBD918C93AA7007F20EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F669DBDA18C93AA7007F20EE /* Build configuration list for PBXNativeTarget "ExactTarget NSSet TestTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +523,7 @@
 				F669DBDC18C93AA7007F20EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
