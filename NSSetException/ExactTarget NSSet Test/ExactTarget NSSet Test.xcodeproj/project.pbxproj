@@ -24,6 +24,7 @@
 		F669DBD218C93AA7007F20EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F669DBD018C93AA7007F20EE /* InfoPlist.strings */; };
 		F669DBD418C93AA7007F20EE /* ExactTarget_NSSet_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F669DBD318C93AA7007F20EE /* ExactTarget_NSSet_TestTests.m */; };
 		F669DBF118C94889007F20EE /* libetpushsdk-3.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F669DBEC18C94889007F20EE /* libetpushsdk-3.0.0.a */; };
+		F669DBF318C9494C007F20EE /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F669DBF218C9494C007F20EE /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		F669DBEE18C94889007F20EE /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
 		F669DBEF18C94889007F20EE /* PushConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushConstants.h; sourceTree = "<group>"; };
 		F669DBF018C94889007F20EE /* Region.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Region.h; sourceTree = "<group>"; };
+		F669DBF218C9494C007F20EE /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F669DBF318C9494C007F20EE /* libsqlite3.dylib in Frameworks */,
 				F669DBA518C93AA7007F20EE /* CoreGraphics.framework in Frameworks */,
 				F669DBF118C94889007F20EE /* libetpushsdk-3.0.0.a in Frameworks */,
 				F669DBA718C93AA7007F20EE /* UIKit.framework in Frameworks */,
@@ -120,6 +123,7 @@
 		F669DBA118C93AA7007F20EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F669DBF218C9494C007F20EE /* libsqlite3.dylib */,
 				F669DBA218C93AA7007F20EE /* Foundation.framework */,
 				F669DBA418C93AA7007F20EE /* CoreGraphics.framework */,
 				F669DBA618C93AA7007F20EE /* UIKit.framework */,
